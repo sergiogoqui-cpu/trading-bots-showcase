@@ -5,11 +5,11 @@ Utilidades genéricas extraídas de los bots. Cada una será un repo independien
 | # | Herramienta | Origen | Lenguaje | Qué resuelve |
 |---|---|---|---|---|
 | 1 | **[ws-resilient](https://github.com/sergiogoqui-cpu/ws-resilient)** ✅ publicado | Feed WebSocket con backoff, timeout de inactividad, heartbeat y detección de huecos en `trade_id` | Python | Cliente WebSocket que reconecta con backoff exponencial + jitter, detecta mensajes perdidos y marca cobertura de datos |
-| 2 | **http-guard** | Cliente HTTP con timeouts, reintentos, manejo de 429 y circuit breaker por host | TypeScript | `fetch` resiliente para APIs con rate-limit, con ruta "crítica" que ignora el breaker |
+| 2 | **[http-guard](https://github.com/sergiogoqui-cpu/http-guard)** ✅ publicado | Cliente HTTP con timeouts, reintentos, manejo de 429 y circuit breaker por host | TypeScript | `fetch` resiliente para APIs con rate-limit, con ruta "crítica" que ignora el breaker |
 | 3 | **[safe-logger](https://github.com/sergiogoqui-cpu/safe-logger)** ✅ publicado | Logger con redacción automática de secretos y saneado de entradas hostiles | TypeScript / Python | Logs a disco que nunca filtran claves ni tokens |
-| 4 | **backtest-metrics** | Retornos diarios, Sharpe, drawdown, calendario 24/7 | Python | Métricas puras y testeadas para cripto (365 días) |
-| 5 | **mt5-data-fmt** | Utilidades de velas y trades de MetaTrader 5 | Python | Convertir datos de MT5 a DataFrame/Parquet con zona horaria correcta |
-| 6 | **bot-telegram-alerts** | Alertas Telegram con deduplicación y límites de frecuencia | Python | Notificaciones de bots sin spam |
+| 4 | **[backtest-metrics](https://github.com/sergiogoqui-cpu/backtest-metrics)** ✅ publicado | Retornos diarios, Sharpe, drawdown, calendario 24/7 | Python | Métricas puras y testeadas para cripto (365 días) |
+| 5 | **[mt5-data-fmt](https://github.com/sergiogoqui-cpu/mt5-data-fmt)** ✅ publicado | Utilidades de velas y trades de MetaTrader 5 | Python | Convertir datos de MT5 a DataFrame/Parquet con zona horaria correcta |
+| 6 | **[bot-telegram-alerts](https://github.com/sergiogoqui-cpu/bot-telegram-alerts)** ✅ publicado | Alertas Telegram con deduplicación y límites de frecuencia | Python | Notificaciones de bots sin spam |
 
 ## Orden sugerido
 
