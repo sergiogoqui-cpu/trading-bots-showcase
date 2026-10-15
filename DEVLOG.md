@@ -6,6 +6,7 @@ Agrega una nota con `python scripts/devlog.py "texto"` (opcional: `--tag ws --ta
 
 <!-- DEVLOG:START -->
 ## 2026-10-15
+- `[logging]` `[python]` Publicado safe-logger 0.1.0: logging que enmascara credenciales y neutraliza inyeccion de logs, sin dependencias
 - `[ws]` `[python]` Publicado ws-resilient 0.1.0: cliente WebSocket con backoff y jitter, idle timeout y deteccion de huecos de secuencia
 - `[docs]` Primer DEVLOG: separación "framework abierto / estrategia cerrada" y arquitectura de los tres bots publicada.
 <!-- DEVLOG:END -->

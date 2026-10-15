@@ -1,4 +1,4 @@
-﻿# Trading Bots Showcase
+# Trading Bots Showcase
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
