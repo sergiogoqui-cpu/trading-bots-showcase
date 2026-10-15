@@ -1,4 +1,4 @@
-# Trading Bots Showcase
+﻿# Trading Bots Showcase
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -43,6 +43,12 @@ flowchart LR
 ## Arquitectura por bot
 
 Ver [`docs/architecture.md`](docs/architecture.md).
+
+## Build in public
+
+- [DEVLOG](DEVLOG.md): notas técnicas diarias.
+- [Micro-herramientas open source](docs/micro-tools.md): utilidades genéricas que iré publicando.
+- [Contribuciones](docs/contributions.md): aportes planeados a proyectos open source.
 
 ## Contacto
 
